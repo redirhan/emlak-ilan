@@ -257,7 +257,7 @@ Bu kit daha sıkı yorumu uygular: bugün her ilan türü ve her kanal için Eİ
 - [HABER-28620] Yeni Alanya: Emlak ilanının bedeli ağır oldu, 28 bin TL ceza (toplam satış bedeli yerine peşinatın ilan fiyatı gibi gösterilmesi). https://www.yenialanya.com/emlak-ilaninin-bedeli-agir-oldu-28-bin-tl-ceza-yedi (belge tarihi 2026-10-26, okunma 2026-10-27)
 - [TB-BASIN-2024] Ticaret Bakanlığı: Emlak Sektörüne Yönelik Faaliyetler ve Uygulanan İdari Para Cezalarına İlişkin Basın Açıklaması. https://ticaret.gov.tr/haberler/emlak-sektorune-yonelik-faaliyetler-ve-uygulanan-idari-para-cezalarina-iliskin-basin-aciklamasi (belge tarihi 2024-06-28, okunma 2026-10-27)
 - [K32] Türk Parası Kıymetini Koruma Hakkında 32 Sayılı Karar m.4(g) (Cumhurbaşkanı Kararı 85, RG 13.09.2018, sayı 30534) ve Tebliğ 2008-32/34. https://www.alomaliye.com/2018/09/13/turk-parasi-kiymetini-korumu-sayi-85/amp/ (belge tarihi 2018-09-13, okunma 2026-10-27)
-- [REKLAM-ETIKETI] Reklam Etiketi Kontrolü skill'i (MIT, Redirhan Studio): Ticari Reklam ve Haksız Ticari Uygulamalar Yönetmeliği, RG 33297 (01.07.2026, yürürlük 01.08.2026) kontrolleri. https://github.com/redirhan/reklam-etiketi (belge tarihi 2026-10-27, okunma 2026-10-27)
+- [REKLAM-ETIKETI] Reklam Etiketi Kontrolü skill'i (MIT, Redirhan Labs): Ticari Reklam ve Haksız Ticari Uygulamalar Yönetmeliği, RG 33297 (01.07.2026, yürürlük 01.08.2026) kontrolleri. https://github.com/redirhan/reklam-etiketi (belge tarihi 2026-10-27, okunma 2026-10-27)
 
 ---
 

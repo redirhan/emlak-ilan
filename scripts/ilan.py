@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Emlak İlan Kiti (MIT, Redirhan Studio).
+"""Emlak İlan Kiti (MIT, Redirhan Labs).
 
 Taşınmaz bilgilerini (YAML/JSON) alır; Sahibinden, Hepsiemlak ve Emlakjet için başlık + açıklama + özellik listesi,
 Instagram reels çekim planı + ekran yazıları + açıklama, Türkçe Carousel Üretici formatında carousel planı ve

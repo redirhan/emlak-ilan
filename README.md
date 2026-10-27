@@ -5,7 +5,7 @@ listesini, **Instagram reels çekim planını** (ekran yazıları, kalıcı fiya
 **carousel planını** çıkarsın, ilanı yayından önce **EİDS ve Taşınmaz Ticareti Hakkında Yönetmelik** kurallarına göre
 denetlesin.
 
-Ücretsiz, MIT lisanslı. Redirhan Studio tarafından hazırlandı. Tamamen yerel çalışır: yayın yok, portal ya da
+Ücretsiz, MIT lisanslı. Redirhan Labs tarafından hazırlandı. Tamamen yerel çalışır: yayın yok, portal ya da
 Instagram girişi yok, ücretli API yok, tarayıcı yok. Yalnız Python standart kütüphanesi.
 
 > **Bu bir hukuki görüş değildir; bilgilendirme amaçlıdır.** Her çıktı bu cümleyle başlar ve biter. Emin olmadığınız
@@ -105,4 +105,4 @@ Tümü `SKILL.md` ve `rules/kurallar.yaml`'da kaynaklarıyla.
 
 ## Lisans
 
-MIT (`LICENSE`), © 2026 Redirhan Studio.
+MIT (`LICENSE`), © 2026 Redirhan Labs.

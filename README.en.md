@@ -6,7 +6,7 @@ Emlakjet**, an **Instagram Reels shot plan** (on-screen texts, persistent price 
 **EİDS** (the Ministry of Trade's Electronic Listing Verification System) and the **Regulation on Real Estate Trade**
 (Taşınmaz Ticareti Hakkında Yönetmelik).
 
-Free, MIT licensed, by Redirhan Studio. Runs fully locally: no publishing, no portal or Instagram login, no paid APIs,
+Free, MIT licensed, by Redirhan Labs. Runs fully locally: no publishing, no portal or Instagram login, no paid APIs,
 no browser. Python standard library only. Output texts are Turkish.
 
 > **Not legal advice; for information only** ("Bu bir hukuki görüş değildir; bilgilendirme amaçlıdır" opens and closes
@@ -55,4 +55,4 @@ applies to agents; foreign-currency prices; portal title limits (could not be ve
 
 ## License
 
-MIT (`LICENSE`), © 2026 Redirhan Studio.
+MIT (`LICENSE`), © 2026 Redirhan Labs.
