@@ -1,0 +1,77 @@
+# Bu bir hukuki görüş değildir; bilgilendirme amaçlıdır.
+# Reklam Etiketi Kontrolü girdisi (github.com/redirhan/reklam-etiketi)
+platform: "instagram"
+bicim: "reels"
+hesap_turu: "marka_kendi"
+yayin_tarihi: "2026-11-05"
+ticari_iliski: "hayir"
+iliski_turu: []
+reklam_veren: "Örnek Ticari Gayrimenkul Ltd. Şti."
+reklam_veren_hesap: "@ornekticari"
+urun_kategorisi: "hizmet"
+platform_ortaklik_etiketi: "hayir"
+urunu_deneyimledi: "evet"
+filtre: "hayir"
+aciklama: "4+1 Kiralık Ofis · Kızılay, Çankaya / Ankara\nFiyat: 65.000 TL / ay\nÖnceki fiyat (son 10 günün en düşüğü): 70.000 TL · Güncel: 65.000 TL · 05.11.2026 - 31.12.2026 arasında geçerli\nEİDS doğrulamalı ilan: https://example.com/ilan/2233445566 (ilan no 2233445566)\n\n140 m² brüt / 120 m² net · 4+1 · 8. kat · 15 yaşında bina\n- Metro istasyonuna 450 m\n- Kira 70.000 TL yerine 65.000 TL\n- Toplantı odası ve yönetici odası ayrı\nAidat: 6.000 TL / ay\n\nÖrnek Ticari Gayrimenkul Ltd. Şti. · Yetki belge no: 0600456\nAda/parsel: 1088/3 · 0 555 000 00 01\n#çankaya #kiralıkofis #çankayakiralıkofis #emlak\n"
+ekran_yazilari:
+  - metin: "65.000 TL / ay · EİDS doğrulamalı ilan linki açıklamada"
+    baslangic: 0
+    bitis: 18.1
+    konum: "ust"
+  - metin: "4+1 · 120 m² · Kızılay Kiralık Ofis"
+    baslangic: 0.0
+    bitis: 2.5
+    konum: "orta"
+  - metin: "Açık ofis alanı · 52 m²"
+    baslangic: 2.5
+    bitis: 4.6
+    konum: "orta"
+  - metin: "Yönetici odası · 18 m²"
+    baslangic: 4.6
+    bitis: 6.7
+    konum: "orta"
+  - metin: "Toplantı odası · 20 m²"
+    baslangic: 6.7
+    bitis: 8.8
+    konum: "orta"
+  - metin: "Çalışma odası · 14 m²"
+    baslangic: 8.8
+    bitis: 10.9
+    konum: "orta"
+  - metin: "Mutfak · 8 m²"
+    baslangic: 10.9
+    bitis: 13.0
+    konum: "orta"
+  - metin: "Manzara (Şehir)"
+    baslangic: 13.0
+    bitis: 15.1
+    konum: "orta"
+  - metin: "65.000 TL / ay · 4+1 · 120 m² · Kızılay, Çankaya / Ankara"
+    baslangic: 15.1
+    bitis: 18.1
+    konum: "orta"
+seslendirme: ""
+sure_sn: 18.1
+parca_sayisi: 1
+her_parcada_etiket: "evet"
+yapay_zeka:
+  kullanildi: "hayir"
+  neler: []
+  gercek_kisi_kopyasi: "hayir"
+indirim:
+  indirimli_fiyat: 65000
+  onceki_fiyat: 70000
+  son_10_gun_en_dusuk: 70000
+  baslangic: "2026-11-05"
+  bitis: "2026-12-31"
+  stok_adedi: null
+  urun_turu: "mal"
+  satis_kanali: "ilan platformu"
+  onceki_fiyat_kanali: "ilan platformu"
+cocuk:
+  hedef_kitle: "hayir"
+  oynuyor: "hayir"
+hedefleme:
+  cocuk_profilleme: "hayir"
+karsilastirma:
+  rakip_adi_var: "hayir"

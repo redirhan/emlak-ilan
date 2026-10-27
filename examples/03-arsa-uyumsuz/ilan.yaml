@@ -1,0 +1,66 @@
+# KURGUSAL ÖRNEK, BİLEREK UYUMSUZ: işletme, numaralar ve ifadeler uydurmadır.
+# Durum: hisseli tarla "imarlı arsa" gibi satılıyor; peşinat fiyat gibi gösteriliyor; EİDS izni yok; drone görüntüsü
+# komşu parselden, deniz yapay zekâ ile eklendi; yetki belge no, ada/parsel yok; komisyon %6; gösterme ücreti.
+# Bu bir hukuki görüş değildir; bilgilendirme amaçlıdır.
+ilan_turu: satilik
+emlak_tipi: arsa
+alt_tip: tarla
+ilan_veren: isletme
+yayin_tarihi: "2026-11-10"
+kanallar: [portal, instagram]
+fiyat: 450000
+fiyat_turu: pesinat
+para_birimi: TL
+konum:
+  il: Muğla
+  ilce: Milas
+  mahalle: Ören
+  ada: ""
+  parsel: ""
+arsa:
+  alan_m2: 1000
+  imar_durumu: ""
+  emsal: ""
+  gabari: ""
+  hisse: ""
+  ekili_dikili: "12 zeytin ağacı"
+  yola_cephe: evet
+tapu:
+  durum: hisseli
+  ipotek_haciz: bilinmiyor
+kullanim_durumu: "Boş"
+ulasim: []
+sosyal:
+  - {yer: "Sahil", mesafe: "3 km"}
+isletme:
+  unvan: "Örnek Arsa Pazarlama"
+  yetki_belgesi_no: ""
+  telefon: "0 555 000 00 02"
+  instagram: "@ornekarsa"
+yetkilendirme:
+  sozlesme: bilinmiyor
+  bitis: ""
+eids:
+  yetki_dogrulandi: bilinmiyor
+  ilan_no: ""
+  ilan_linki: ""
+komisyon:
+  toplam_oran: 6
+  metin: "Alıcıdan %6"
+gorseller:
+  bu_tasinmaza_ait: hayir
+  temsili: hayir
+  yapay_zeka:
+    kullanildi: evet
+    neler: [manzara]
+reklam:
+  ticari_iliski: hayir
+vurgular:
+  - "Deniz manzaralı, villa yapımına uygun"
+  - "İmar gelecek, değer kazanacak"
+  - "Bölgenin en ucuz arsası, kaçırmayın"
+  - "Detaylı bilgi ve fiyat için DM"
+ek_aciklama: "Peşinat 450.000 TL, kalanı 24 ay taksitle. Fiyat düştü! Yer gösterme bedeli 1.000 TL."
+baslik_vurgu: "Deniz Manzaralı"
+reels: {sure_sn: 15}
+carousel: {sablon: renkli-egitim, hesap: "@ornekarsa"}

@@ -1,0 +1,842 @@
+{
+  "uyari": "Bu bir hukuki görüş değildir; bilgilendirme amaçlıdır.",
+  "sonuc": "KONTROL LİSTESİNİ TAMAMLAYIN",
+  "sayilar": {
+    "DUZELT": 0,
+    "UZMANA_SOR": 0,
+    "UYARI": 1,
+    "MANUEL": 0,
+    "BILGI": 2,
+    "GECTI": 32,
+    "UYGULANMAZ": 7
+  },
+  "kontrol_tarihi": "2026-10-27",
+  "yayin_tarihi": "2026-11-03",
+  "kural_surumu": "1.0.0",
+  "kural_tarihi": "2026-10-27",
+  "kontroller": [
+    {
+      "id": "EIDS-01",
+      "baslik": "EİDS yetki doğrulaması yapıldı mı?",
+      "kategori": "eids",
+      "durum": "GECTI",
+      "bulgu": "EİDS yetki doğrulaması yapıldı olarak girildi.",
+      "duzeltme": "Taşınmaz sahibinden e-Devlet > \"EİDS Taşınmaz İlanı Yayınlama İzni İşlemleri\" üzerinden işletmeniz adına ilan izni isteyin (taşınmaz numarası, işletme, süre). İzni TTBS > \"Yetki Belgelerim / EİDS İlan Yayınlama İzinlerim\" ekranında görün. İzin gelmeden ilanı hiçbir kanalda (portal, Instagram, WhatsApp) yayınlamayın.",
+      "guven": "yuksek",
+      "dayanak": "Taşınmaz Ticareti Hakkında Yönetmelik m.12(2)(c), 12(2)(ç); Ticaret Bakanlığı EİDS duyurusu: Kurumsal ilanların verilmesi; Ticaret Bakanlığı sosyal medya duyurusu: tüm taşınmaz ilanları",
+      "kaynak": [
+        {
+          "url": "https://www.resmigazete.gov.tr/eskiler/2023/08/20230831-6.htm",
+          "tarih": "2023-08-31",
+          "okunma": "2026-10-27"
+        },
+        {
+          "url": "https://ticaret.gov.tr/kurumsal-haberler/elektronik-ilan-dogrulama-sistemi-eids-yetki-dogrulama-uygulamasi-hayata-gecirildi",
+          "tarih": "2024-09-17",
+          "okunma": "2026-10-27"
+        },
+        {
+          "url": "https://ticaret.gov.tr/haberler/ticaret-bakanligi-tasinmaz-ve-tasit-ticaretinde-uygulanmakta-olan-elektronik-ilan-dogrulama-sistemi-eids-kapsaminda-kimlik-ve-yetki-dogrulamasi-zorunlulugunu-instagram-facebook-ve-whatsapp-da-dahil-olmak-uzere-elektronik-ortamda-verilen-tum-tasinmaz-ve-tasi",
+          "tarih": "2026-08-22",
+          "okunma": "2026-10-27"
+        }
+      ],
+      "belirsizlik": "Yetki doğrulamasının satılık konut için başlangıç tarihi kaynaklarda çelişkili: 01.02.2026 ülke geneli (Karar, 28.12.2025) ya da 01.02.2026 üç pilot il + 15.02.2026 ülke geneli (AA/TRT, 31.01.2026). Satılık arsa/tarla için ayrı bir tarih bulunamadı; Ağustos 2026'daki bir sektör açıklaması satılık tarafın henüz tamamlanmadığını ima ediyor. Yönetmelik 12(2) metni \"satışına yönelik ilanlar\" diyor ama Bakanlık kiralığa da uyguluyor. DAHA SIKI KURAL KODLANDI: bugün itibarıyla her ilan türü (satılık, kiralık, konut, iş yeri, arsa) ve her kanal için EİDS yetki doğrulaması şart sayılır (Bakanlık 22.08.2026: \"elektronik ortamda verilen tüm taşınmaz ilanları\")."
+    },
+    {
+      "id": "EIDS-02",
+      "baslik": "Sosyal medya paylaşımında EİDS doğrulamalı ilan linki var mı?",
+      "kategori": "eids",
+      "durum": "GECTI",
+      "bulgu": "EİDS doğrulamalı ilan linki girildi (https://example.com/ilan/1234567890).",
+      "duzeltme": "Önce ilanı EİDS doğrulamasıyla bir ilan platformunda yayınlayın, ilan linkini (ve ilan numarasını) girdiye yazın. Reels/carousel açıklamasının ilk satırlarına ve son karta linki koyun; Instagram açıklamada link tıklanmadığı için \"İlan linki profilde / açıklamada\" yazıp linki profil bağlantısına ya da hikâye bağlantısına da ekleyin.",
+      "guven": "yuksek",
+      "dayanak": "Ticaret Bakanlığı sosyal medya duyurusu: sosyal medyada yayımlanan ilanlarda EİDS doğrulaması yapılmış ilan linkinin paylaşılması zorunlu",
+      "kaynak": [
+        {
+          "url": "https://ticaret.gov.tr/haberler/ticaret-bakanligi-tasinmaz-ve-tasit-ticaretinde-uygulanmakta-olan-elektronik-ilan-dogrulama-sistemi-eids-kapsaminda-kimlik-ve-yetki-dogrulamasi-zorunlulugunu-instagram-facebook-ve-whatsapp-da-dahil-olmak-uzere-elektronik-ortamda-verilen-tum-tasinmaz-ve-tasi",
+          "tarih": "2026-08-22",
+          "okunma": "2026-10-27"
+        }
+      ],
+      "belirsizlik": "Duyuru linkin \"paylaşılmasını\" istiyor, yerini (açıklama mı, görsel mi) belirtmiyor. Daha sıkı yorum: link açıklamada, fiyat hem açıklamada hem görselde (son kart + kalıcı rozet)."
+    },
+    {
+      "id": "EIDS-03",
+      "baslik": "Sosyal medya paylaşımında ilan fiyatı var mı?",
+      "kategori": "eids",
+      "durum": "GECTI",
+      "bulgu": "Fiyat açıklamaya, kalıcı rozete ve son karta yazılıyor.",
+      "duzeltme": "Fiyatı (toplam satış bedeli ya da aylık kira, TL) açıklamaya ve görsele yazın. Bu kit fiyatı reelde kalıcı rozet + son kart, carousel'de kapak + bilgi slaytı, açıklamada ilk satırlar olarak ekler.",
+      "guven": "yuksek",
+      "dayanak": "Ticaret Bakanlığı sosyal medya duyurusu: EİDS doğrulaması yapılmış ilan linkinin yanı sıra ilan fiyatı bilgisine de mutlaka yer vermeleri gerekmektedir",
+      "kaynak": [
+        {
+          "url": "https://ticaret.gov.tr/haberler/ticaret-bakanligi-tasinmaz-ve-tasit-ticaretinde-uygulanmakta-olan-elektronik-ilan-dogrulama-sistemi-eids-kapsaminda-kimlik-ve-yetki-dogrulamasi-zorunlulugunu-instagram-facebook-ve-whatsapp-da-dahil-olmak-uzere-elektronik-ortamda-verilen-tum-tasinmaz-ve-tasi",
+          "tarih": "2026-08-22",
+          "okunma": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "id": "EIDS-04",
+      "baslik": "Görseller ve açıklama doğrulanmış ilandaki taşınmaza mı ait?",
+      "kategori": "eids",
+      "durum": "GECTI",
+      "bulgu": "Görseller bu taşınmaza ait olarak girildi.",
+      "duzeltme": "Yalnız bu taşınmazda çekilmiş görüntüleri kullanın. Aynı projede başka bir bağımsız bölümün (örnek daire) görüntüsünü kullanacaksanız ayrı ilan ve ayrı EİDS izni gerekir; aksi halde çıkarın.",
+      "guven": "yuksek",
+      "dayanak": "Ticaret Bakanlığı sosyal medya duyurusu: görseller ile açıklamaların EİDS üzerinden doğrulanmış ilana konu taşınmaza ait olması koşuluyla; Taşınmaz Ticareti Hakkında Yönetmelik m.12(1), 14(2)(b)",
+      "kaynak": [
+        {
+          "url": "https://ticaret.gov.tr/haberler/ticaret-bakanligi-tasinmaz-ve-tasit-ticaretinde-uygulanmakta-olan-elektronik-ilan-dogrulama-sistemi-eids-kapsaminda-kimlik-ve-yetki-dogrulamasi-zorunlulugunu-instagram-facebook-ve-whatsapp-da-dahil-olmak-uzere-elektronik-ortamda-verilen-tum-tasinmaz-ve-tasi",
+          "tarih": "2026-08-22",
+          "okunma": "2026-10-27"
+        },
+        {
+          "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=24645&MevzuatTur=7&MevzuatTertip=5",
+          "tarih": "2026-10-01",
+          "okunma": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "id": "YTK-01",
+      "baslik": "Yetki belgesi numarası ilanda mı?",
+      "kategori": "yetki",
+      "durum": "GECTI",
+      "bulgu": "Yetki belgesi no: 3500123.",
+      "duzeltme": "isletme.yetki_belgesi_no alanını doldurun. Kit numarayı portal açıklamasındaki \"Zorunlu ilan bilgileri\" bloğuna, reel son kartına ve carousel bilgi slaytına yazar. Numaranızı TTBS'den kontrol edin.",
+      "guven": "yuksek",
+      "dayanak": "Taşınmaz Ticareti Hakkında Yönetmelik m.14(2)(i)",
+      "kaynak": [
+        {
+          "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=24645&MevzuatTur=7&MevzuatTertip=5",
+          "tarih": "2026-10-01",
+          "okunma": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "id": "YTK-02",
+      "baslik": "Yetki belgesindeki işletme adı / unvanı ilanda mı?",
+      "kategori": "yetki",
+      "durum": "GECTI",
+      "bulgu": "Girildi.",
+      "duzeltme": "isletme.unvan alanına yetki belgesinde yazan adı/unvanı birebir yazın; markanız farklıysa isletme.marka alanına.",
+      "guven": "yuksek",
+      "dayanak": "Taşınmaz Ticareti Hakkında Yönetmelik m.14(2)(i)",
+      "kaynak": [
+        {
+          "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=24645&MevzuatTur=7&MevzuatTertip=5",
+          "tarih": "2026-10-01",
+          "okunma": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "id": "YTK-03",
+      "baslik": "Taşınmaz için yazılı yetkilendirme sözleşmesi var mı?",
+      "kategori": "yetki",
+      "durum": "GECTI",
+      "bulgu": "Yazılı yetkilendirme sözleşmesi var olarak girildi.",
+      "duzeltme": "Taşınmaz sahibiyle yazılı yetkilendirme sözleşmesi yapın (asgari bilgiler Yön. m.15). Sözleşmede olmayan bir koşulu (fiyat, kira, takas) ilana yazmayın.",
+      "guven": "yuksek",
+      "dayanak": "Taşınmaz Ticareti Hakkında Yönetmelik m.14(2)(j), 14(2)(ı), 15(1); Ticaret Bakanlığı EİDS duyurusu: EİDS ilan verme yetkisi sözleşme ve diğer belgelerin yerine geçmez",
+      "kaynak": [
+        {
+          "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=24645&MevzuatTur=7&MevzuatTertip=5",
+          "tarih": "2026-10-01",
+          "okunma": "2026-10-27"
+        },
+        {
+          "url": "https://ticaret.gov.tr/kurumsal-haberler/elektronik-ilan-dogrulama-sistemi-eids-yetki-dogrulama-uygulamasi-hayata-gecirildi",
+          "tarih": "2024-09-17",
+          "okunma": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "id": "YTK-04",
+      "baslik": "Yetki süresi yayın tarihinde geçerli mi?",
+      "kategori": "yetki",
+      "durum": "GECTI",
+      "bulgu": "Yetki 2027-02-01 tarihine kadar geçerli.",
+      "duzeltme": "Yetkiyi (sözleşme + EİDS izni) uzatın ya da ilanı kaldırın. Satış/kiralama olunca portal ilanını ve sosyal medya paylaşımlarını üç gün içinde kaldırın ya da \"satıldı\" diye güncelleyip fiyat/link içeren kısmı silin.",
+      "guven": "yuksek",
+      "dayanak": "Taşınmaz Ticareti Hakkında Yönetmelik m.14(2)(h)",
+      "kaynak": [
+        {
+          "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=24645&MevzuatTur=7&MevzuatTertip=5",
+          "tarih": "2026-10-01",
+          "okunma": "2026-10-27"
+        }
+      ],
+      "belirsizlik": "\"Satıldı\" paylaşımının (fiyat ve link olmadan) ilan faaliyeti sayılıp sayılmadığı net değil; daha sıkı yorumla eski ilan paylaşımı kaldırılır, gerekirse fiyatsız ve linksiz yeni bir \"satıldı\" gönderisi yapılır."
+    },
+    {
+      "id": "ZRN-01",
+      "baslik": "İl, ilçe, mahalle var mı? (açık adres yok mu?)",
+      "kategori": "zorunlu",
+      "durum": "GECTI",
+      "bulgu": "Girildi.",
+      "duzeltme": "konum.il, konum.ilce, konum.mahalle alanlarını doldurun. Açık adresi (sokak/cadde + numara) metinden çıkarın.",
+      "guven": "yuksek",
+      "dayanak": "Taşınmaz Ticareti Hakkında Yönetmelik m.14(2)(i)",
+      "kaynak": [
+        {
+          "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=24645&MevzuatTur=7&MevzuatTertip=5",
+          "tarih": "2026-10-01",
+          "okunma": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "id": "ZRN-02",
+      "baslik": "Ada ve parsel var mı?",
+      "kategori": "zorunlu",
+      "durum": "GECTI",
+      "bulgu": "Girildi.",
+      "duzeltme": "Tapudaki ada ve parseli konum.ada, konum.parsel alanlarına yazın (e-Devlet > Tapu Bilgileri Sorgulama ya da TKGM Parsel Sorgu). Tapu kütüğüne kayıtlı olmayan taşınmazda nedenini açıklayın ve uzmana danışın.",
+      "guven": "yuksek",
+      "dayanak": "Taşınmaz Ticareti Hakkında Yönetmelik m.14(2)(i); Bakan Bolat açıklaması: il, ilçe, mahalle, ada ve parsel bilgilerine yer vermek zorunda",
+      "kaynak": [
+        {
+          "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=24645&MevzuatTur=7&MevzuatTertip=5",
+          "tarih": "2026-10-01",
+          "okunma": "2026-10-27"
+        },
+        {
+          "url": "https://ticaret.gov.tr/haberler/bakan-bolat-emlakta-dogrulanmis-ilan-uygulamasina-iliskin-detaylari-paylasti",
+          "tarih": "2024-09-06",
+          "okunma": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "id": "ZRN-03",
+      "baslik": "İmar ve yapı kullanma izni (iskân) durumu yazılı mı?",
+      "kategori": "zorunlu",
+      "durum": "GECTI",
+      "bulgu": "Girildi.",
+      "duzeltme": "tapu.iskan (var / yok / proje aşamasında) ve arsa için arsa.imar_durumu alanlarını doldurun. Bilmiyorsanız \"bilinmiyor\" yazıp ilanı yayınlamadan önce belediyeden öğrenin; tahminle \"iskânlı\" yazmayın.",
+      "guven": "orta",
+      "dayanak": "Taşınmaz Ticareti Hakkında Yönetmelik m.14(2)(i) → 15(3)(a)",
+      "kaynak": [
+        {
+          "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=24645&MevzuatTur=7&MevzuatTertip=5",
+          "tarih": "2026-10-01",
+          "okunma": "2026-10-27"
+        }
+      ],
+      "belirsizlik": "15(3) asgari bilgileri yetkilendirme SÖZLEŞMESİ için sayıyor; 14(2)(i) ilanlarda \"15 inci maddenin üçüncü fıkrasında belirtilen diğer bilgilere\" yer verilmesini istiyor. Daha sıkı okuma kodlandı: 15(3)'teki her bilgi ilanda da istenir. Proje, ticari ve tapusuz taşınmazda 15(4) gereği \"uygun olanlar\" yeterli sayılabilir."
+    },
+    {
+      "id": "ZRN-04",
+      "baslik": "Tapu cinsi / durumu yazılı mı?",
+      "kategori": "zorunlu",
+      "durum": "GECTI",
+      "bulgu": "Girildi.",
+      "duzeltme": "tapu.durum alanını doldurun; hisseli ise tapu.hisse oranını da yazın.",
+      "guven": "orta",
+      "dayanak": "Taşınmaz Ticareti Hakkında Yönetmelik m.14(2)(i) → 15(3)(b)",
+      "kaynak": [
+        {
+          "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=24645&MevzuatTur=7&MevzuatTertip=5",
+          "tarih": "2026-10-01",
+          "okunma": "2026-10-27"
+        }
+      ],
+      "belirsizlik": "ZRN-03'teki 15(3) okuması burada da geçerli."
+    },
+    {
+      "id": "ZRN-05",
+      "baslik": "Büyüklük, yaş ve fiili kullanım durumu yazılı mı?",
+      "kategori": "zorunlu",
+      "durum": "GECTI",
+      "bulgu": "Girildi.",
+      "duzeltme": "ozellikler.brut_m2 / net_m2, ozellikler.bina_yasi ve kullanim_durumu alanlarını doldurun.",
+      "guven": "orta",
+      "dayanak": "Taşınmaz Ticareti Hakkında Yönetmelik m.14(2)(i) → 15(3)(c)",
+      "kaynak": [
+        {
+          "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=24645&MevzuatTur=7&MevzuatTertip=5",
+          "tarih": "2026-10-01",
+          "okunma": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "id": "ZRN-06",
+      "baslik": "Kat, cephe ve manzara yazılı mı?",
+      "kategori": "zorunlu",
+      "durum": "GECTI",
+      "bulgu": "Girildi.",
+      "duzeltme": "ozellikler.kat, ozellikler.cephe, ozellikler.manzara alanlarını doldurun (manzara yoksa 'yok').",
+      "guven": "orta",
+      "dayanak": "Taşınmaz Ticareti Hakkında Yönetmelik m.14(2)(i) → 15(3)(ç)",
+      "kaynak": [
+        {
+          "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=24645&MevzuatTur=7&MevzuatTertip=5",
+          "tarih": "2026-10-01",
+          "okunma": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "id": "ZRN-07",
+      "baslik": "Toplu taşıma duraklarına yaklaşık mesafe yazılı mı?",
+      "kategori": "zorunlu",
+      "durum": "GECTI",
+      "bulgu": "2 durak/mesafe girildi.",
+      "duzeltme": "ulasim listesine en yakın durak(lar)ı ve yaklaşık mesafeyi (m ya da yürüme dakikası) yazın; ölçerek yazın.",
+      "guven": "orta",
+      "dayanak": "Taşınmaz Ticareti Hakkında Yönetmelik m.14(2)(i) → 15(3)(d)",
+      "kaynak": [
+        {
+          "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=24645&MevzuatTur=7&MevzuatTertip=5",
+          "tarih": "2026-10-01",
+          "okunma": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "id": "ZRN-08",
+      "baslik": "Sosyal ve kültürel mekânlara yaklaşık mesafe yazılı mı?",
+      "kategori": "zorunlu",
+      "durum": "GECTI",
+      "bulgu": "3 sosyal mekân/mesafe girildi.",
+      "duzeltme": "sosyal listesine 2-4 yer ve yaklaşık mesafe yazın.",
+      "guven": "orta",
+      "dayanak": "Taşınmaz Ticareti Hakkında Yönetmelik m.14(2)(i) → 15(3)(e)",
+      "kaynak": [
+        {
+          "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=24645&MevzuatTur=7&MevzuatTertip=5",
+          "tarih": "2026-10-01",
+          "okunma": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "id": "ZRN-09",
+      "baslik": "Oda, salon, banyo, tuvalet, balkon sayısı ve yaklaşık büyüklükleri yazılı mı?",
+      "kategori": "zorunlu",
+      "durum": "GECTI",
+      "bulgu": "Girildi.",
+      "duzeltme": "ozellikler.oda/salon/banyo/tuvalet/balkon ve odalar listesine (ad + m²) yazın.",
+      "guven": "orta",
+      "dayanak": "Taşınmaz Ticareti Hakkında Yönetmelik m.14(2)(i) → 15(3)(f)",
+      "kaynak": [
+        {
+          "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=24645&MevzuatTur=7&MevzuatTertip=5",
+          "tarih": "2026-10-01",
+          "okunma": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "id": "ZRN-10",
+      "baslik": "Apartman / site / müstakil durumu ve donatılar yazılı mı?",
+      "kategori": "zorunlu",
+      "durum": "GECTI",
+      "bulgu": "Girildi.",
+      "duzeltme": "ozellikler.yapi_tipi ve ozellikler.donatilar alanlarını doldurun.",
+      "guven": "orta",
+      "dayanak": "Taşınmaz Ticareti Hakkında Yönetmelik m.14(2)(i) → 15(3)(g)",
+      "kaynak": [
+        {
+          "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=24645&MevzuatTur=7&MevzuatTertip=5",
+          "tarih": "2026-10-01",
+          "okunma": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "id": "ZRN-11",
+      "baslik": "Arazide hisse, emsal, öngörülen bina yüksekliği ve ekili/dikili ürün yazılı mı?",
+      "kategori": "zorunlu",
+      "durum": "UYGULANMAZ",
+      "bulgu": "Yalnız arsa/arazi için.",
+      "duzeltme": "arsa.hisse (tam ise \"tam\"), arsa.emsal, arsa.gabari, arsa.ekili_dikili alanlarını imar durum belgesine göre doldurun. İmarsız tarlada \"imar yok\" yazın; emsal/gabari uydurmayın.",
+      "guven": "orta",
+      "dayanak": "Taşınmaz Ticareti Hakkında Yönetmelik m.14(2)(i) → 15(3)(ğ)",
+      "kaynak": [
+        {
+          "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=24645&MevzuatTur=7&MevzuatTertip=5",
+          "tarih": "2026-10-01",
+          "okunma": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "id": "ZRN-12",
+      "baslik": "İpotek, haciz ve benzeri kısıtlama durumu yazılı mı?",
+      "kategori": "zorunlu",
+      "durum": "GECTI",
+      "bulgu": "Girildi.",
+      "duzeltme": "tapu.ipotek_haciz alanına 'yok' ya da kısıtlamayı (ör. 'banka ipoteği var, satışta kapatılacak') yazın.",
+      "guven": "orta",
+      "dayanak": "Taşınmaz Ticareti Hakkında Yönetmelik m.14(2)(i) → 15(3)(h)",
+      "kaynak": [
+        {
+          "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=24645&MevzuatTur=7&MevzuatTertip=5",
+          "tarih": "2026-10-01",
+          "okunma": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "id": "ZRN-13",
+      "baslik": "İletişim bilgisi var mı?",
+      "kategori": "zorunlu",
+      "durum": "GECTI",
+      "bulgu": "Girildi.",
+      "duzeltme": "isletme.telefon (ve isterseniz e-posta) alanını doldurun.",
+      "guven": "yuksek",
+      "dayanak": "Taşınmaz Ticareti Hakkında Yönetmelik m.14(2)(i)",
+      "kaynak": [
+        {
+          "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=24645&MevzuatTur=7&MevzuatTertip=5",
+          "tarih": "2026-10-01",
+          "okunma": "2026-10-27"
+        }
+      ],
+      "belirsizlik": "Bazı portallar açıklamada telefon numarasını kabul etmeyebilir (doğrulanamadı). Portal iletişim bilgisini profil alanında gösteriyorsa bu yeterli görünür; sosyal medyada telefon açıklamaya yazılır."
+    },
+    {
+      "id": "ZRN-14",
+      "baslik": "Enerji kimlik belgesi bilgisi (varsa) yazılı mı?",
+      "kategori": "zorunlu",
+      "durum": "GECTI",
+      "bulgu": "Enerji sınıfı: C.",
+      "duzeltme": "enerji.sinif (A-G) alanını doldurun; belge yoksa enerji.belge: yok yazın.",
+      "guven": "yuksek",
+      "dayanak": "Taşınmaz Ticareti Hakkında Yönetmelik m.14(2)(i)",
+      "kaynak": [
+        {
+          "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=24645&MevzuatTur=7&MevzuatTertip=5",
+          "tarih": "2026-10-01",
+          "okunma": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "id": "FYT-01",
+      "baslik": "Fiyat girildi mi?",
+      "kategori": "fiyat",
+      "durum": "GECTI",
+      "bulgu": "Fiyat: 8.750.000 TL.",
+      "duzeltme": "fiyat alanına toplam satış bedelini ya da aylık kirayı TL olarak yazın.",
+      "guven": "yuksek",
+      "dayanak": "Ticaret Bakanlığı sosyal medya duyurusu: ilan fiyatı bilgisine de mutlaka yer vermeleri",
+      "kaynak": [
+        {
+          "url": "https://ticaret.gov.tr/haberler/ticaret-bakanligi-tasinmaz-ve-tasit-ticaretinde-uygulanmakta-olan-elektronik-ilan-dogrulama-sistemi-eids-kapsaminda-kimlik-ve-yetki-dogrulamasi-zorunlulugunu-instagram-facebook-ve-whatsapp-da-dahil-olmak-uzere-elektronik-ortamda-verilen-tum-tasinmaz-ve-tasi",
+          "tarih": "2026-08-22",
+          "okunma": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "id": "FYT-02",
+      "baslik": "Fiyat toplam bedel mi? (peşinat, taksit ya da 'başlayan fiyat' değil)",
+      "kategori": "fiyat",
+      "durum": "GECTI",
+      "bulgu": "Fiyat toplam bedel olarak girildi.",
+      "duzeltme": "fiyat_turu: toplam yapın ve toplam bedeli yazın. Peşinat/taksit seçeneğini açıklamada ayrıca belirtin: \"Toplam fiyat 4.500.000 TL; 2.000.000 TL peşin, kalanı 12 ay taksit.\"",
+      "guven": "yuksek",
+      "dayanak": "Taşınmaz Ticareti Hakkında Yönetmelik m.12(1), 14(2)(b), 14(2)(ç); Yeni Alanya haberi: toplam satış bedelinin açıkça belirtilmemesi",
+      "kaynak": [
+        {
+          "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=24645&MevzuatTur=7&MevzuatTertip=5",
+          "tarih": "2026-10-01",
+          "okunma": "2026-10-27"
+        },
+        {
+          "url": "https://www.yenialanya.com/emlak-ilaninin-bedeli-agir-oldu-28-bin-tl-ceza-yedi",
+          "tarih": "2026-10-26",
+          "okunma": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "id": "FYT-03",
+      "baslik": "Fiyat Türk lirası mı?",
+      "kategori": "fiyat",
+      "durum": "GECTI",
+      "bulgu": "TL.",
+      "duzeltme": "Fiyatı TL yazın. Alıcı/kiracı yurt dışında yerleşikse ya da başka bir istisna varsa döviz kullanmadan önce uzmana danışın.",
+      "guven": "orta",
+      "dayanak": "32 Sayılı Karar m.4(g) (Cumhurbaşkanı Kararı 85, RG 30534) + Tebliğ 2008-32/34 m.4(g)",
+      "kaynak": [
+        {
+          "url": "https://www.alomaliye.com/2018/09/13/turk-parasi-kiymetini-korumu-sayi-85/amp/",
+          "tarih": "2018-09-13",
+          "okunma": "2026-10-27"
+        }
+      ],
+      "belirsizlik": "Yasak sözleşme bedeline ilişkindir; ilan metnine doğrudan bir hüküm bulunamadı. Birincil metin bu çalışmada açılamadı (ikincil kaynak). İstisnalar 2024-32/69 sayılı tebliğle genişletildi; kapsamı doğrulanmadı."
+    },
+    {
+      "id": "FYT-04",
+      "baslik": "Fiyat gerçekçi mi? (yem fiyat)",
+      "kategori": "fiyat",
+      "durum": "GECTI",
+      "bulgu": "Fiyat makul aralıkta.",
+      "duzeltme": "Gerçek ve sözleşmedeki fiyatı yazın.",
+      "guven": "orta",
+      "dayanak": "Taşınmaz Ticareti Hakkında Yönetmelik m.12(1), 14(2)(b), 14(2)(ı)",
+      "kaynak": [
+        {
+          "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=24645&MevzuatTur=7&MevzuatTertip=5",
+          "tarih": "2026-10-01",
+          "okunma": "2026-10-27"
+        }
+      ],
+      "belirsizlik": "Eşik değerler bu kitin tahminidir (aşağıdaki esikler bölümü), mevzuatta sayı yoktur."
+    },
+    {
+      "id": "FYT-05",
+      "baslik": "KDV durumu açık mı? (yeni konut / iş yeri / müteahhit satışı)",
+      "kategori": "fiyat",
+      "durum": "UYGULANMAZ",
+      "bulgu": "İkinci el konut ya da kiralık.",
+      "duzeltme": "kdv alanını 'dahil', 'haric' ya da 'yok' yapın; kit açıklamaya yazar.",
+      "guven": "dusuk",
+      "dayanak": "Taşınmaz Ticareti Hakkında Yönetmelik m.14(2)(ç)",
+      "kaynak": [
+        {
+          "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=24645&MevzuatTur=7&MevzuatTertip=5",
+          "tarih": "2026-10-01",
+          "okunma": "2026-10-27"
+        }
+      ],
+      "belirsizlik": "KDV gösterimi için emlak ilanına özgü bir hüküm bulunamadı; bu bir iyi uygulama kontrolüdür."
+    },
+    {
+      "id": "FYT-06",
+      "baslik": "İlan fiyatı yükseltildi mi? (haklı sebep)",
+      "kategori": "fiyat",
+      "durum": "UYGULANMAZ",
+      "bulgu": "Fiyat artışı girilmedi.",
+      "duzeltme": "Artışın sebebini (tadilat, yeni ekspertiz, sözleşmedeki yeni fiyat) yazılı tutun. Artış oranı yüksekse ya da ilan kısa sürede birden çok kez yükseltildiyse yayınlamadan önce uzmana danışın.",
+      "guven": "orta",
+      "dayanak": "Taşınmaz Ticareti Hakkında Yönetmelik m.12(3); Ticaret Bakanlığı basın açıklaması: fahiş fiyat artışı cezaları",
+      "kaynak": [
+        {
+          "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=24645&MevzuatTur=7&MevzuatTertip=5",
+          "tarih": "2026-10-01",
+          "okunma": "2026-10-27"
+        },
+        {
+          "url": "https://ticaret.gov.tr/haberler/emlak-sektorune-yonelik-faaliyetler-ve-uygulanan-idari-para-cezalarina-iliskin-basin-aciklamasi",
+          "tarih": "2024-06-28",
+          "okunma": "2026-10-27"
+        }
+      ],
+      "belirsizlik": "Mevzuatta sayısal bir artış eşiği yok; 'genel ekonomik veriler' tanımlanmamış."
+    },
+    {
+      "id": "FYT-07",
+      "baslik": "'Fiyat düştü' / indirim iddiası belgeli mi?",
+      "kategori": "fiyat",
+      "durum": "UYGULANMAZ",
+      "bulgu": "İndirim vurgusu yok.",
+      "duzeltme": "fiyat_gecmisi.onceki_fiyat, son_10_gun_en_dusuk, degisim_tarihi ve kanal alanlarını doldurun. Belgeleyemiyorsanız indirim dilini kaldırın, yalnız güncel fiyatı yazın.",
+      "guven": "orta",
+      "dayanak": "Reklam Etiketi Kontrolü (Ticari Reklam ve Haksız Ticari Uygulamalar Yön. m.14, RG 33297) m.14(1)-(3)",
+      "kaynak": [
+        {
+          "url": "https://github.com/redirhan/reklam-etiketi",
+          "tarih": "2026-10-27",
+          "okunma": "2026-10-27"
+        }
+      ],
+      "belirsizlik": "m.14'ün emlak işletmesinin (satıcı değil, aracı) ilanındaki fiyat düşüşüne uygulanıp uygulanmadığı net değil. 6502'de konut \"mal\" tanımına girer. Daha sıkı yorumla uygulanır."
+    },
+    {
+      "id": "KMS-01",
+      "baslik": "İlandaki hizmet bedeli (komisyon) yasal sınırın içinde mi?",
+      "kategori": "komisyon",
+      "durum": "GECTI",
+      "bulgu": "Toplam hizmet bedeli %4 (sınır %4 + KDV).",
+      "duzeltme": "komisyon.oran (satış, %) ya da komisyon.ay (kira, ay) değerini sınırın içine çekin.",
+      "guven": "yuksek",
+      "dayanak": "Taşınmaz Ticareti Hakkında Yönetmelik m.20(1), 20(2), 20(5)",
+      "kaynak": [
+        {
+          "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=24645&MevzuatTur=7&MevzuatTertip=5",
+          "tarih": "2026-10-01",
+          "okunma": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "id": "KMS-02",
+      "baslik": "Gösterme ücreti isteniyor mu?",
+      "kategori": "komisyon",
+      "durum": "GECTI",
+      "bulgu": "Gösterme ücreti yok.",
+      "duzeltme": "'Gösterme ücreti', 'yer gösterme bedeli' ifadelerini ve uygulamasını kaldırın.",
+      "guven": "yuksek",
+      "dayanak": "Taşınmaz Ticareti Hakkında Yönetmelik m.19(4)",
+      "kaynak": [
+        {
+          "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=24645&MevzuatTur=7&MevzuatTertip=5",
+          "tarih": "2026-10-01",
+          "okunma": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "id": "YNL-01",
+      "baslik": "Kırmızı bayrak ifadeler (garanti, kesin getiri, imar gelecek...)",
+      "kategori": "yaniltici",
+      "durum": "GECTI",
+      "bulgu": "Kesin getiri, garanti ya da gelecekteki imar vaadi yok.",
+      "duzeltme": "İfadeyi kaldırın ya da belgeli, ölçülebilir hale getirin: \"kira getirisi garantili\" → \"taşınmaz şu an 25.000 TL'ye kiracılı (sözleşme 2027'ye kadar)\"; \"imar gelecek\" → kaldırın, mevcut imar durumunu yazın.",
+      "guven": "orta",
+      "dayanak": "Taşınmaz Ticareti Hakkında Yönetmelik m.12(1), 14(2)(b), 14(2)(ç)",
+      "kaynak": [
+        {
+          "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=24645&MevzuatTur=7&MevzuatTertip=5",
+          "tarih": "2026-10-01",
+          "okunma": "2026-10-27"
+        }
+      ],
+      "belirsizlik": "Hangi ifadenin yanıltıcı sayılacağı somut olaya bağlıdır; sözlük ihtiyatlı bir tarama listesidir."
+    },
+    {
+      "id": "YNL-02",
+      "baslik": "Metindeki iddia girilen bilgilerle çelişiyor mu?",
+      "kategori": "yaniltici",
+      "durum": "GECTI",
+      "bulgu": "Metindeki iddialar girilen bilgilerle çelişmiyor.",
+      "duzeltme": "Ya alanı düzeltin (gerçek buysa) ya da ifadeyi metinden çıkarın.",
+      "guven": "yuksek",
+      "dayanak": "Taşınmaz Ticareti Hakkında Yönetmelik m.12(1), 14(2)(b)",
+      "kaynak": [
+        {
+          "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=24645&MevzuatTur=7&MevzuatTertip=5",
+          "tarih": "2026-10-01",
+          "okunma": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "id": "YNL-03",
+      "baslik": "Hisseli tapu açıkça belirtilmiş mi?",
+      "kategori": "yaniltici",
+      "durum": "UYGULANMAZ",
+      "bulgu": "Hisseli tapu değil.",
+      "duzeltme": "tapu.hisse (ya da arsa.hisse) alanına oranı yazın; başlığa 'hisseli' ekleyin.",
+      "guven": "yuksek",
+      "dayanak": "Taşınmaz Ticareti Hakkında Yönetmelik m.14(2)(ç), 15(3)(ğ)",
+      "kaynak": [
+        {
+          "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=24645&MevzuatTur=7&MevzuatTertip=5",
+          "tarih": "2026-10-01",
+          "okunma": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "id": "YNL-04",
+      "baslik": "Üstünlük ya da aciliyet iddiası belgeli mi?",
+      "kategori": "yaniltici",
+      "durum": "GECTI",
+      "bulgu": "Üstünlük ya da aciliyet iddiası yok.",
+      "duzeltme": "Belgeleyemiyorsanız kaldırın; belgeliyse kaynağı yazın (ör. 'projede kalan 2 daire, 03.11.2026 itibarıyla').",
+      "guven": "orta",
+      "dayanak": "Taşınmaz Ticareti Hakkında Yönetmelik m.14(2)(b); Reklam Etiketi Kontrolü (Ticari Reklam Yön. m.8-9, üstünlük ve karşılaştırma) m.8, 9",
+      "kaynak": [
+        {
+          "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=24645&MevzuatTur=7&MevzuatTertip=5",
+          "tarih": "2026-10-01",
+          "okunma": "2026-10-27"
+        },
+        {
+          "url": "https://github.com/redirhan/reklam-etiketi",
+          "tarih": "2026-10-27",
+          "okunma": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "id": "GRS-01",
+      "baslik": "Yapay zekâ ile üretilmiş ya da düzenlenmiş görsel var mı? (sanal mobilya, gökyüzü, render)",
+      "kategori": "gorsel",
+      "durum": "UYARI",
+      "bulgu": "Yapay zekâ ile görsel düzenleme var: sanal_mobilya. Kit beyanı açıklamaya, reel ekranına ve carousel açıklamasına ekledi.",
+      "duzeltme": "Görselin üzerine ve açıklamaya beyan yazın: \"Mobilyalar yapay zekâ ile yerleştirilmiştir, taşınmaz boş teslim edilir.\" Düzenlenmemiş gerçek fotoğrafları da ilana koyun. Yapıyı değiştiren düzenlemeyi kaldırın.",
+      "guven": "orta",
+      "dayanak": "Reklam Etiketi Kontrolü (Ticari Reklam Yön. m.18(8), RG 33297) m.18(8); Taşınmaz Ticareti Hakkında Yönetmelik m.12(1)",
+      "kaynak": [
+        {
+          "url": "https://github.com/redirhan/reklam-etiketi",
+          "tarih": "2026-10-27",
+          "okunma": "2026-10-27"
+        },
+        {
+          "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=24645&MevzuatTur=7&MevzuatTertip=5",
+          "tarih": "2026-10-01",
+          "okunma": "2026-10-27"
+        }
+      ],
+      "belirsizlik": "\"Önemli ölçüde etkileyecek şekilde\" tanımlanmamış. Daha sıkı yorum: taşınmazın görünümünü değiştiren her YZ kullanımı beyan edilir (renk/ışık düzeltmesi hariç)."
+    },
+    {
+      "id": "GRS-02",
+      "baslik": "Proje / render görsellerinde 'temsili' ibaresi var mı?",
+      "kategori": "gorsel",
+      "durum": "UYGULANMAZ",
+      "bulgu": "Temsili görsel yok.",
+      "duzeltme": "Her render görselin üzerine 'Temsili görseldir' yazın; tamamlanmış bölümün gerçek fotoğrafını tercih edin.",
+      "guven": "dusuk",
+      "dayanak": "Taşınmaz Ticareti Hakkında Yönetmelik m.12(1), 14(2)(b)",
+      "kaynak": [
+        {
+          "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=24645&MevzuatTur=7&MevzuatTertip=5",
+          "tarih": "2026-10-01",
+          "okunma": "2026-10-27"
+        }
+      ],
+      "belirsizlik": "Emlak render'ına özgü bir Reklam Kurulu ilke kararı bulunamadı; genel yanıltmama ilkesinden türetildi."
+    },
+    {
+      "id": "SM-01",
+      "baslik": "Satıldı / kiralandı olunca 3 gün içinde ilan kaldırılacak mı?",
+      "kategori": "sosyal",
+      "durum": "BILGI",
+      "bulgu": "Satış/kiralama ya da yetki sonu + 3 gün içinde portal ilanını ve sosyal medya paylaşımlarını kaldırın.",
+      "duzeltme": "Takvime yazın: satış/kiralama günü + 3 gün. Instagram'daki fiyatlı ve linkli paylaşımları da kaldırın ya da arşivleyin.",
+      "guven": "yuksek",
+      "dayanak": "Taşınmaz Ticareti Hakkında Yönetmelik m.14(2)(h)",
+      "kaynak": [
+        {
+          "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=24645&MevzuatTur=7&MevzuatTertip=5",
+          "tarih": "2026-10-01",
+          "okunma": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "id": "REK-01",
+      "baslik": "İçerik üretici / iş birliği paylaşımı mı?",
+      "kategori": "reklam",
+      "durum": "UYGULANMAZ",
+      "bulgu": "İşletmenin kendi hesabı / iş birliği yok.",
+      "duzeltme": "Reklam Etiketi Kontrolü'nü reklam_kontrol.yaml ile çalıştırın; etiketi açıklamanın ilk satırına ve her karede ekleyin.",
+      "guven": "orta",
+      "dayanak": "Reklam Etiketi Kontrolü (Ticari Reklam Yön. m.23/A, RG 33297) m.23/A",
+      "kaynak": [
+        {
+          "url": "https://github.com/redirhan/reklam-etiketi",
+          "tarih": "2026-10-27",
+          "okunma": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "id": "PLT-01",
+      "baslik": "Başlık platform sınırına sığıyor mu?",
+      "kategori": "platform",
+      "durum": "GECTI",
+      "bulgu": "Başlıklar platform ayarlarına sığıyor.",
+      "duzeltme": "Başlığı kısaltın: konum + oda + tür + tek öne çıkan özellik.",
+      "guven": "dusuk",
+      "dayanak": "Bu kitin platform ayarı (panelde doğrulanmadı): platformlar.*.baslik_max",
+      "kaynak": [
+        {
+          "url": "https://github.com/redirhan/emlak-ilan",
+          "tarih": "2026-10-27",
+          "okunma": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "id": "PLT-02",
+      "baslik": "Başlık tamamen büyük harf ya da emoji/ünlem dolu mu?",
+      "kategori": "platform",
+      "durum": "GECTI",
+      "bulgu": "Başlıklar normal yazımla.",
+      "duzeltme": "Normal yazım kullanın; vurgu için tek özellik seçin.",
+      "guven": "dusuk",
+      "dayanak": "Bu kitin yazım kuralı (okunabilirlik; 14(2)(i) 'kolay okunabilir') m.14(2)(i)",
+      "kaynak": [
+        {
+          "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=24645&MevzuatTur=7&MevzuatTertip=5",
+          "tarih": "2026-10-01",
+          "okunma": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "id": "CZA-01",
+      "baslik": "İdari para cezası aralığı (bilgi)",
+      "kategori": "ceza",
+      "durum": "BILGI",
+      "bulgu": "Ceza aralıkları raporun sonunda.",
+      "duzeltme": "-",
+      "guven": "orta",
+      "dayanak": "Taşınmaz Ticareti Hakkında Yönetmelik m.22(4); 6585 s. Kanun m.18(1)(i), 18(5); 5326 s. Kabahatler Kanunu m.17(7)",
+      "kaynak": [
+        {
+          "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=24645&MevzuatTur=7&MevzuatTertip=5",
+          "tarih": "2026-10-01",
+          "okunma": "2026-10-27"
+        },
+        {
+          "url": "https://www.mevzuat.gov.tr/mevzuatmetin/1.5.6585.pdf",
+          "tarih": "2024-05-29",
+          "okunma": "2026-10-27"
+        },
+        {
+          "url": "https://www.mevzuat.gov.tr/mevzuatmetin/1.5.5326.pdf",
+          "tarih": "2022-07-01",
+          "okunma": "2026-10-27"
+        }
+      ],
+      "belirsizlik": "Araştırma notlarımızda \"100 bin TL'ye kadar\" ve \"158.460 TL\" çelişkisi vardı. Birincil metinlere göre ikisi de eksik: 100.000 TL Bakanlığın işletme başına UYGULADIĞI tutar (2024, 2026); 158.460 TL ise 6563 s. Kanunun (platformlar) 2024 üst sınırı. Emlak işletmesine uygulanan 6585 m.18(1)(i)'nin 2026 aralığı hesapla 28.620 - 858.620 TL'dir (Bakanlık 2026 tutarını ilan etmedi; alt sınır Ekim 2026 cezasıyla birebir tutuyor). Daha sıkı olan (yüksek) üst sınır gösterilir."
+    }
+  ],
+  "metne_alinmayan": [],
+  "metinler": {
+    "sahibinden": {
+      "baslik": "Bostanlı'da Balkonlu 3+1 Satılık Daire, 110 m²",
+      "aciklama": "Bostanlı'da 3+1 satılık daire: 125 m² brüt, 110 m² net, 5 katlı apartmanın 3. katı.\n\nÖne çıkanlar:\n- Tramvay durağına 350 m\n- Mutfak 2023'te yenilendi\n- Salon ve balkon güney cepheli\n\nDaire bilgileri:\n- Alan: 125 m² brüt / 110 m² net\n- Oda: 3+1\n- Banyo: 2\n- Tuvalet: 2\n- Balkon: 1\n- Kat: 3 / 5 katlı bina\n- Bina yaşı: 12\n- Cephe: Güney, batı\n- Manzara: Şehir\n- Isıtma: Kombi (doğalgaz)\n- Yapı: Apartman\n- Eşya: Eşyasız\n- Fiili kullanım: Boş\n\nBölümler (yaklaşık):\n- Salon: 32 m², balkona açılıyor\n- Mutfak: 12 m², 2023'te yenilendi\n- Ebeveyn yatak odası: 16 m², banyolu\n- Yatak odası: 12 m²\n- Çalışma odası: 9 m²\n- Balkon: 6 m²\n\nBina ve donatılar:\n- Asansör\n- Açık otopark\n- Kapıcı\n\nKonum ve yaklaşık mesafeler:\n- Tramvay durağı: 350 m\n- Bostanlı vapur iskelesi: 900 m\n- İlkokul: 400 m\n- Semt pazarı: 600 m\n- Sahil yürüyüş yolu: 750 m\n\nTapu ve hukuki durum:\n- Tapu: Kat mülkiyetli\n- Yapı kullanma izni (iskân): Var\n- İpotek/haciz: Yok\n- Krediye uygunluk: Uygun (banka değerlendirmesine bağlı)\n- Enerji kimlik belgesi: C sınıfı\n\nFiyat ve ödeme:\n- Satış fiyatı: 8.750.000 TL (toplam bedel)\n- Aidat: 1.500 TL / ay\n- Hizmet bedeli: Alıcıdan ve satıcıdan ayrı ayrı %2 + KDV\n\nGörseller hakkında:\n- Fotoğraflardaki mobilyalar yapay zekâ ile yerleştirilmiştir; taşınmaz boş teslim edilir.\n\nİlan bilgileri (Taşınmaz Ticareti Hakkında Yönetmelik m.14/2-i):\n- İşletme: Örnek Gayrimenkul Danışmanlık - Ayşe Örnek (Örnek Emlak)\n- Yetki belgesi no: 3500123\n- İl / ilçe / mahalle: İzmir, Karşıyaka, Bostanlı\n- Ada / parsel: 4521 / 17\n- İletişim: 0 555 000 00 00\n- EİDS: İlan, taşınmaz sahibinin e-Devlet üzerinden verdiği ilan yayınlama izniyle yayımlanmaktadır.\n",
+      "ozellikler": [
+        "Asansör",
+        "Açık otopark",
+        "Balkon",
+        "Kapıcı",
+        "Isıtma: Kombi (doğalgaz)",
+        "Enerji sınıfı C"
+      ]
+    },
+    "hepsiemlak": {
+      "baslik": "Karşıyaka Bostanlı 3+1 110 m² Satılık Daire - Balkonlu",
+      "aciklama": "Bostanlı'da 3+1 satılık daire: 125 m² brüt, 110 m² net, 5 katlı apartmanın 3. katı.\n\nÖne çıkanlar:\n- Tramvay durağına 350 m\n- Mutfak 2023'te yenilendi\n- Salon ve balkon güney cepheli\n\nKonum ve yaklaşık mesafeler:\n- Tramvay durağı: 350 m\n- Bostanlı vapur iskelesi: 900 m\n- İlkokul: 400 m\n- Semt pazarı: 600 m\n- Sahil yürüyüş yolu: 750 m\n\nTapu ve hukuki durum:\n- Tapu: Kat mülkiyetli\n- Yapı kullanma izni (iskân): Var\n- İpotek/haciz: Yok\n- Krediye uygunluk: Uygun (banka değerlendirmesine bağlı)\n- Enerji kimlik belgesi: C sınıfı\n\nDaire bilgileri:\n- Alan: 125 m² brüt / 110 m² net\n- Oda: 3+1\n- Banyo: 2\n- Tuvalet: 2\n- Balkon: 1\n- Kat: 3 / 5 katlı bina\n- Bina yaşı: 12\n- Cephe: Güney, batı\n- Manzara: Şehir\n- Isıtma: Kombi (doğalgaz)\n- Yapı: Apartman\n- Eşya: Eşyasız\n- Fiili kullanım: Boş\n\nBölümler (yaklaşık):\n- Salon: 32 m², balkona açılıyor\n- Mutfak: 12 m², 2023'te yenilendi\n- Ebeveyn yatak odası: 16 m², banyolu\n- Yatak odası: 12 m²\n- Çalışma odası: 9 m²\n- Balkon: 6 m²\n\nBina ve donatılar:\n- Asansör\n- Açık otopark\n- Kapıcı\n\nFiyat ve ödeme:\n- Satış fiyatı: 8.750.000 TL (toplam bedel)\n- Aidat: 1.500 TL / ay\n- Hizmet bedeli: Alıcıdan ve satıcıdan ayrı ayrı %2 + KDV\n\nGörseller hakkında:\n- Fotoğraflardaki mobilyalar yapay zekâ ile yerleştirilmiştir; taşınmaz boş teslim edilir.\n\nİlan bilgileri (Taşınmaz Ticareti Hakkında Yönetmelik m.14/2-i):\n- İşletme: Örnek Gayrimenkul Danışmanlık - Ayşe Örnek (Örnek Emlak)\n- Yetki belgesi no: 3500123\n- İl / ilçe / mahalle: İzmir, Karşıyaka, Bostanlı\n- Ada / parsel: 4521 / 17\n- İletişim: 0 555 000 00 00\n- EİDS: İlan, taşınmaz sahibinin e-Devlet üzerinden verdiği ilan yayınlama izniyle yayımlanmaktadır.\n",
+      "ozellikler": [
+        "Asansör",
+        "Açık otopark",
+        "Balkon",
+        "Kapıcı",
+        "Isıtma: Kombi (doğalgaz)",
+        "Enerji sınıfı C"
+      ]
+    },
+    "emlakjet": {
+      "baslik": "3+1 Satılık Daire | Bostanlı, Karşıyaka | Balkonlu",
+      "aciklama": "Bostanlı'da 3+1 satılık daire: 125 m² brüt, 110 m² net, 5 katlı apartmanın 3. katı.\n\nÖzet:\n- Fiyat: 8.750.000 TL\n- Alan: 125 m² brüt / 110 m² net\n- Konum: Bostanlı, Karşıyaka / İzmir\n\nÖne çıkanlar:\n- Tramvay durağına 350 m\n- Mutfak 2023'te yenilendi\n- Salon ve balkon güney cepheli\n\nDaire bilgileri:\n- Alan: 125 m² brüt / 110 m² net\n- Oda: 3+1\n- Banyo: 2\n- Tuvalet: 2\n- Balkon: 1\n- Kat: 3 / 5 katlı bina\n- Bina yaşı: 12\n- Cephe: Güney, batı\n- Manzara: Şehir\n- Isıtma: Kombi (doğalgaz)\n- Yapı: Apartman\n- Eşya: Eşyasız\n- Fiili kullanım: Boş\n\nBölümler (yaklaşık):\n- Salon: 32 m², balkona açılıyor\n- Mutfak: 12 m², 2023'te yenilendi\n- Ebeveyn yatak odası: 16 m², banyolu\n- Yatak odası: 12 m²\n- Çalışma odası: 9 m²\n- Balkon: 6 m²\n\nBina ve donatılar:\n- Asansör\n- Açık otopark\n- Kapıcı\n\nKonum ve yaklaşık mesafeler:\n- Tramvay durağı: 350 m\n- Bostanlı vapur iskelesi: 900 m\n- İlkokul: 400 m\n- Semt pazarı: 600 m\n- Sahil yürüyüş yolu: 750 m\n\nTapu ve hukuki durum:\n- Tapu: Kat mülkiyetli\n- Yapı kullanma izni (iskân): Var\n- İpotek/haciz: Yok\n- Krediye uygunluk: Uygun (banka değerlendirmesine bağlı)\n- Enerji kimlik belgesi: C sınıfı\n\nFiyat ve ödeme:\n- Satış fiyatı: 8.750.000 TL (toplam bedel)\n- Aidat: 1.500 TL / ay\n- Hizmet bedeli: Alıcıdan ve satıcıdan ayrı ayrı %2 + KDV\n\nGörseller hakkında:\n- Fotoğraflardaki mobilyalar yapay zekâ ile yerleştirilmiştir; taşınmaz boş teslim edilir.\n\nİlan bilgileri (Taşınmaz Ticareti Hakkında Yönetmelik m.14/2-i):\n- İşletme: Örnek Gayrimenkul Danışmanlık - Ayşe Örnek (Örnek Emlak)\n- Yetki belgesi no: 3500123\n- İl / ilçe / mahalle: İzmir, Karşıyaka, Bostanlı\n- Ada / parsel: 4521 / 17\n- İletişim: 0 555 000 00 00\n- EİDS: İlan, taşınmaz sahibinin e-Devlet üzerinden verdiği ilan yayınlama izniyle yayımlanmaktadır.\n",
+      "ozellikler": [
+        "Asansör",
+        "Açık otopark",
+        "Balkon",
+        "Kapıcı",
+        "Isıtma: Kombi (doğalgaz)",
+        "Enerji sınıfı C"
+      ]
+    }
+  }
+}

@@ -1,0 +1,67 @@
+# Bu bir hukuki görüş değildir; bilgilendirme amaçlıdır.
+# Reklam Etiketi Kontrolü girdisi (github.com/redirhan/reklam-etiketi)
+platform: "instagram"
+bicim: "reels"
+hesap_turu: "marka_kendi"
+yayin_tarihi: "2026-11-03"
+ticari_iliski: "hayir"
+iliski_turu: []
+reklam_veren: "Örnek Gayrimenkul Danışmanlık - Ayşe Örnek"
+reklam_veren_hesap: "@ornekemlak"
+urun_kategorisi: "hizmet"
+platform_ortaklik_etiketi: "hayir"
+urunu_deneyimledi: "evet"
+filtre: "hayir"
+aciklama: "3+1 Satılık Daire · Bostanlı, Karşıyaka / İzmir\nFiyat: 8.750.000 TL\nEİDS doğrulamalı ilan: https://example.com/ilan/1234567890 (ilan no 1234567890)\n\n125 m² brüt / 110 m² net · 3+1 · 3. kat · 12 yaşında bina\n- Tramvay durağına 350 m\n- Mutfak 2023'te yenilendi\n- Salon ve balkon güney cepheli\nAidat: 1.500 TL / ay\nFotoğraflardaki mobilyalar yapay zekâ ile yerleştirilmiştir; taşınmaz boş teslim edilir.\n\nÖrnek Gayrimenkul Danışmanlık - Ayşe Örnek · Yetki belge no: 3500123\nAda/parsel: 4521/17 · 0 555 000 00 00\n#karşıyaka #satılıkdaire #karşıyakasatılıkdaire #emlak\n"
+ekran_yazilari:
+  - metin: "8.750.000 TL · EİDS doğrulamalı ilan linki açıklamada"
+    baslangic: 0
+    bitis: 19.9
+    konum: "ust"
+  - metin: "3+1 · 110 m² · Bostanlı Satılık Daire"
+    baslangic: 0.0
+    bitis: 2.5
+    konum: "orta"
+  - metin: "Salon · 32 m² (Mobilyalar yapay zekâ ile yerleştirildi)"
+    baslangic: 2.5
+    bitis: 4.9
+    konum: "orta"
+  - metin: "Mutfak · 12 m² (Mobilyalar yapay zekâ ile yerleştirildi)"
+    baslangic: 4.9
+    bitis: 7.3
+    konum: "orta"
+  - metin: "Ebeveyn yatak odası · 16 m² (Mobilyalar yapay zekâ ile yerleştirildi)"
+    baslangic: 7.3
+    bitis: 9.7
+    konum: "orta"
+  - metin: "Yatak odası · 12 m² (Mobilyalar yapay zekâ ile yerleştirildi)"
+    baslangic: 9.7
+    bitis: 12.1
+    konum: "orta"
+  - metin: "Çalışma odası · 9 m² (Mobilyalar yapay zekâ ile yerleştirildi)"
+    baslangic: 12.1
+    bitis: 14.5
+    konum: "orta"
+  - metin: "Balkon · 6 m² (Mobilyalar yapay zekâ ile yerleştirildi)"
+    baslangic: 14.5
+    bitis: 16.9
+    konum: "orta"
+  - metin: "8.750.000 TL · 3+1 · 110 m² · Bostanlı, Karşıyaka / İzmir"
+    baslangic: 16.9
+    bitis: 19.9
+    konum: "orta"
+seslendirme: ""
+sure_sn: 19.9
+parca_sayisi: 1
+her_parcada_etiket: "evet"
+yapay_zeka:
+  kullanildi: "evet"
+  neler: ["urun_gorseli"]
+  gercek_kisi_kopyasi: "hayir"
+cocuk:
+  hedef_kitle: "hayir"
+  oynuyor: "hayir"
+hedefleme:
+  cocuk_profilleme: "hayir"
+karsilastirma:
+  rakip_adi_var: "hayir"

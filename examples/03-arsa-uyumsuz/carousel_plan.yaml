@@ -1,0 +1,39 @@
+# Bu bir hukuki görüş değildir; bilgilendirme amaçlıdır.
+# Türkçe Carousel Üretici planı (github.com/redirhan/turkce-carousel):
+#   carousel.py kontrol carousel_plan.yaml && carousel.py render carousel_plan.yaml --cikti carousel/
+# Fiyat, EİDS linki ve yetki belge no slaytlardan ve açıklamadan çıkarılmamalı. TASLAK: önce rapor.md'deki DÜZELT maddeleri.
+konu: "Ören'de satılık tarla"
+sablon: "renkli-egitim"
+hesap: "@ornekarsa"
+seri: "Satılık · Milas"
+slaytlar:
+  - tip: "kanca"
+    ust: "Ören, Milas"
+    sayi: "1000 m²"
+    baslik: "*satılık tarla*"
+    alt: "[TOPLAM BEDEL GEREKLİ] · [EİDS İZNİ VE İLAN LİNKİ GEREKLİ]"
+  - tip: "madde"
+    baslik: "Konum: *Ören*"
+    metin: "Sahil: 3 km."
+  - tip: "madde"
+    baslik: "Arsa *bilgileri*"
+    metin: "Alan: 1000 m². Ekili/dikili ürün: 12 zeytin ağacı. Yola cephe: Var. Fiili kullanım: Boş."
+  - tip: "madde"
+    baslik: "Tapu ve *imar*"
+    metin: "Tapu: Hisseli tapu."
+  - tip: "liste"
+    ust: "İlan bilgileri"
+    baslik: "Fiyat ve *belgeler*"
+    maddeler: ["Fiyat: [TOPLAM BEDEL GEREKLİ]", "Yetki belge no: [GEREKLİ]", "Ada [GEREKLİ] / Parsel [GEREKLİ]"]
+    isaret: "nokta"
+  - tip: "cta"
+    tur: "paylas"
+    baslik: "İhtiyacı olana *gönder*"
+    metin: "[EİDS İZNİ VE İLAN LİNKİ GEREKLİ]."
+caption:
+  kanca: "Satılık Tarla · Ören, Milas / Muğla · [TOPLAM BEDEL GEREKLİ]"
+  maddeler: ["1000 m²"]
+  cta: "EİDS doğrulamalı ilan: [İLAN LİNKİ GEREKLİ] · Yetki belge no: "
+  anahtar_kelimeler: ["satılık tarla", "Milas tarla", "emlak ilanı"]
+  hashtagler: ["#milas", "#satılıktarla", "#milassatılıktarla", "#emlak"]
+reklam: null

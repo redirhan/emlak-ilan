@@ -1,0 +1,46 @@
+# Bu bir hukuki görüş değildir; bilgilendirme amaçlıdır.
+# Türkçe Carousel Üretici planı (github.com/redirhan/turkce-carousel):
+#   carousel.py kontrol carousel_plan.yaml && carousel.py render carousel_plan.yaml --cikti carousel/
+# Fiyat, EİDS linki ve yetki belge no slaytlardan ve açıklamadan çıkarılmamalı.
+konu: "Bostanlı'da satılık daire"
+sablon: "acik-editoryal"
+hesap: "@ornekemlak"
+seri: "Satılık · Karşıyaka"
+slaytlar:
+  - tip: "kanca"
+    ust: "Bostanlı, Karşıyaka"
+    sayi: "3+1"
+    baslik: "*110 m²* satılık daire"
+    alt: "8.750.000 TL · EİDS doğrulamalı ilan"
+  - tip: "liste"
+    ust: "Yaklaşık mesafeler"
+    baslik: "Konum: *Bostanlı*"
+    maddeler: ["Tramvay durağı: 350 m", "Bostanlı vapur iskelesi: 900 m", "İlkokul: 400 m", "Semt pazarı: 600 m", "Sahil yürüyüş yolu: 750 m"]
+    isaret: "nokta"
+  - tip: "madde"
+    baslik: "İç *özellikler*"
+    metin: "3+1 düzen. 2 banyo. 1 balkon. 3. kat. Güney, batı cephe. Salon 32 m², Mutfak 12 m², Ebeveyn yatak odası 16 m²."
+  - tip: "madde"
+    baslik: "Bina ve *donatılar*"
+    metin: "Apartman. 12 yaşında bina. Asansör, açık otopark, kapıcı."
+  - tip: "liste"
+    ust: "Hukuki durum"
+    baslik: "Tapu ve *imar*"
+    maddeler: ["Tapu: Kat mülkiyetli", "Yapı kullanma izni (iskân): Var", "İpotek/haciz: Yok", "Krediye uygunluk: Uygun (banka değerlendirmesine bağlı)", "Enerji kimlik belgesi: C sınıfı"]
+    isaret: "tik"
+  - tip: "liste"
+    ust: "İlan bilgileri"
+    baslik: "Fiyat ve *belgeler*"
+    maddeler: ["Fiyat: 8.750.000 TL", "İlan no: 1234567890", "Yetki belge no: 3500123", "Ada 4521 / Parsel 17", "Enerji sınıfı: C"]
+    isaret: "nokta"
+  - tip: "cta"
+    tur: "paylas"
+    baslik: "Ev arayan birine *gönder*"
+    metin: "EİDS doğrulamalı ilan linki açıklamada."
+caption:
+  kanca: "Satılık Daire · Bostanlı, Karşıyaka / İzmir · 8.750.000 TL"
+  maddeler: ["125 m² brüt / 110 m² net", "3+1", "Tramvay durağına 350 m", "Mutfak 2023'te yenilendi"]
+  cta: "EİDS doğrulamalı ilan: https://example.com/ilan/1234567890 · Yetki belge no: 3500123"
+  anahtar_kelimeler: ["satılık daire", "Karşıyaka daire", "emlak ilanı"]
+  hashtagler: ["#karşıyaka", "#satılıkdaire", "#karşıyakasatılıkdaire", "#emlak"]
+reklam: null

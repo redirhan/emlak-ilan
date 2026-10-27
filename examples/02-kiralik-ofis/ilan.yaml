@@ -1,0 +1,95 @@
+# KURGUSAL ÖRNEK: işletme, numaralar, ada/parsel ve link uydurmadır.
+# Durum: plazada kiralık ofis; kira 70.000 TL'den 65.000 TL'ye indirildi ve açıklamada "kira düştü" denecek.
+# Bu bir hukuki görüş değildir; bilgilendirme amaçlıdır.
+ilan_turu: kiralik
+emlak_tipi: is_yeri
+alt_tip: ofis
+ilan_veren: isletme
+yayin_tarihi: "2026-11-05"
+kanallar: [portal, instagram]
+fiyat: 65000
+fiyat_turu: toplam
+para_birimi: TL
+aidat: 6000
+depozito: 130000
+konum:
+  il: Ankara
+  ilce: Çankaya
+  mahalle: Kızılay
+  ada: "1088"
+  parsel: "3"
+ozellikler:
+  brut_m2: 140
+  net_m2: 120
+  oda: "4+1"
+  banyo: 0
+  tuvalet: 2
+  balkon: 0
+  kat: 8
+  kat_sayisi: 12
+  bina_yasi: 15
+  isitma: "Merkezi sistem"
+  cephe: "Kuzey, doğu"
+  manzara: "Şehir"
+  yapi_tipi: plaza
+  asansor: evet
+  otopark: "Kapalı otopark (2 araç)"
+  esyali: hayir
+  donatilar: ["3 asansör", "Jeneratör", "7/24 güvenlik", "Kapalı otopark (2 araç)"]
+odalar:
+  - {ad: "Açık ofis alanı", m2: 52}
+  - {ad: "Yönetici odası", m2: 18}
+  - {ad: "Toplantı odası", m2: 20}
+  - {ad: "Çalışma odası", m2: 14}
+  - {ad: "Mutfak", m2: 8}
+tapu:
+  durum: kat_mulkiyeti
+  iskan: var
+  ipotek_haciz: yok
+kullanim_durumu: bos
+enerji:
+  belge: var
+  sinif: B
+ulasim:
+  - {yer: "Metro istasyonu", mesafe: "450 m"}
+  - {yer: "Otobüs durağı", mesafe: "150 m"}
+sosyal:
+  - {yer: "Park", mesafe: "300 m"}
+  - {yer: "Hastane", mesafe: "1,2 km"}
+isletme:
+  unvan: "Örnek Ticari Gayrimenkul Ltd. Şti."
+  yetki_belgesi_no: "0600456"
+  telefon: "0 555 000 00 01"
+  instagram: "@ornekticari"
+yetkilendirme:
+  sozlesme: evet
+  bitis: "2027-05-01"
+eids:
+  yetki_dogrulandi: evet
+  ilan_no: "2233445566"
+  ilan_linki: "https://example.com/ilan/2233445566"
+komisyon:
+  toplam_ay: 1
+  metin: "Kiracıdan 1 aylık kira + KDV"
+fiyat_gecmisi:
+  onceki_fiyat: 70000
+  son_10_gun_en_dusuk: 70000
+  degisim_tarihi: "2026-11-05"
+  gecerlilik_bitis: "2026-12-31"
+  kanal: "ilan platformu"
+  indirim_vurgusu: evet
+gorseller:
+  bu_tasinmaza_ait: evet
+  temsili: hayir
+  yapay_zeka:
+    kullanildi: hayir
+    neler: []
+reklam:
+  ticari_iliski: hayir
+vurgular:
+  - "Metro istasyonuna 450 m"
+  - "Kira 70.000 TL yerine 65.000 TL"
+  - "Toplantı odası ve yönetici odası ayrı"
+ek_aciklama: ""
+reels: {sure_sn: 18}
+carousel: {sablon: koyu-mercan, hesap: "@ornekticari"}

@@ -1,0 +1,92 @@
+# KURGUSAL ÖRNEK: işletme, numaralar, ada/parsel ve link uydurmadır.
+# Durum: boş teslim edilecek 3+1 daire; fotoğraflara yapay zekâ ile sanal mobilya yerleştirildi.
+# Bu bir hukuki görüş değildir; bilgilendirme amaçlıdır.
+ilan_turu: satilik
+emlak_tipi: konut
+alt_tip: daire
+ilan_veren: isletme
+yayin_tarihi: "2026-11-03"
+kanallar: [portal, instagram]
+fiyat: 8750000
+fiyat_turu: toplam
+para_birimi: TL
+kdv: yok
+aidat: 1500
+konum:
+  il: İzmir
+  ilce: Karşıyaka
+  mahalle: Bostanlı
+  ada: "4521"
+  parsel: "17"
+ozellikler:
+  brut_m2: 125
+  net_m2: 110
+  oda: "3+1"
+  banyo: 2
+  tuvalet: 2
+  balkon: 1
+  kat: 3
+  kat_sayisi: 5
+  bina_yasi: 12
+  isitma: "Kombi (doğalgaz)"
+  cephe: "Güney, batı"
+  manzara: "Şehir"
+  yapi_tipi: apartman
+  asansor: evet
+  otopark: "Açık otopark"
+  esyali: hayir
+  donatilar: ["Asansör", "Açık otopark", "Kapıcı"]
+odalar:
+  - {ad: "Salon", m2: 32, not: "balkona açılıyor"}
+  - {ad: "Mutfak", m2: 12, not: "2023'te yenilendi"}
+  - {ad: "Ebeveyn yatak odası", m2: 16, not: "banyolu"}
+  - {ad: "Yatak odası", m2: 12}
+  - {ad: "Çalışma odası", m2: 9}
+  - {ad: "Balkon", m2: 6}
+tapu:
+  durum: kat_mulkiyeti
+  iskan: var
+  ipotek_haciz: yok
+krediye_uygun: evet
+kullanim_durumu: bos
+enerji:
+  belge: var
+  sinif: C
+ulasim:
+  - {yer: "Tramvay durağı", mesafe: "350 m"}
+  - {yer: "Bostanlı vapur iskelesi", mesafe: "900 m"}
+sosyal:
+  - {yer: "İlkokul", mesafe: "400 m"}
+  - {yer: "Semt pazarı", mesafe: "600 m"}
+  - {yer: "Sahil yürüyüş yolu", mesafe: "750 m"}
+isletme:
+  unvan: "Örnek Gayrimenkul Danışmanlık - Ayşe Örnek"
+  marka: "Örnek Emlak"
+  yetki_belgesi_no: "3500123"
+  telefon: "0 555 000 00 00"
+  instagram: "@ornekemlak"
+yetkilendirme:
+  sozlesme: evet
+  bitis: "2027-02-01"
+eids:
+  yetki_dogrulandi: evet
+  ilan_no: "1234567890"
+  ilan_linki: "https://example.com/ilan/1234567890"
+komisyon:
+  toplam_oran: 4
+  metin: "Alıcıdan ve satıcıdan ayrı ayrı %2 + KDV"
+gorseller:
+  bu_tasinmaza_ait: evet
+  temsili: hayir
+  yapay_zeka:
+    kullanildi: evet
+    neler: [sanal_mobilya]
+reklam:
+  ticari_iliski: hayir
+vurgular:
+  - "Tramvay durağına 350 m"
+  - "Mutfak 2023'te yenilendi"
+  - "Salon ve balkon güney cepheli"
+ek_aciklama: ""
+reels: {sure_sn: 20}
+carousel: {sablon: acik-editoryal, hesap: "@ornekemlak"}

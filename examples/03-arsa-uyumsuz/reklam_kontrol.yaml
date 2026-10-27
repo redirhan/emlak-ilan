@@ -1,0 +1,61 @@
+# Bu bir hukuki görüş değildir; bilgilendirme amaçlıdır.
+# Reklam Etiketi Kontrolü girdisi (github.com/redirhan/reklam-etiketi)
+platform: "instagram"
+bicim: "reels"
+hesap_turu: "marka_kendi"
+yayin_tarihi: "2026-11-10"
+ticari_iliski: "hayir"
+iliski_turu: []
+reklam_veren: "Örnek Arsa Pazarlama"
+reklam_veren_hesap: "@ornekarsa"
+urun_kategorisi: "hizmet"
+platform_ortaklik_etiketi: "hayir"
+urunu_deneyimledi: "evet"
+filtre: "hayir"
+aciklama: "Satılık Tarla · Ören, Milas / Muğla\nFiyat: [TOPLAM BEDEL GEREKLİ]\nEİDS doğrulamalı ilan: [İLAN LİNKİ GEREKLİ]\n\n1000 m²\n[Yapay zekâ ile taşınmazı değiştiren görseller çıkarılmalı; beyan bunu düzeltmez]\n\nÖrnek Arsa Pazarlama · Yetki belge no: [GEREKLİ]\nAda/parsel: [GEREKLİ]/[GEREKLİ] · 0 555 000 00 02\n#milas #satılıktarla #milassatılıktarla #emlak\n"
+ekran_yazilari:
+  - metin: "[TOPLAM BEDEL GEREKLİ] · [EİDS İZNİ VE İLAN LİNKİ GEREKLİ]"
+    baslangic: 0
+    bitis: 15.1
+    konum: "ust"
+  - metin: "1000 m² · Ören Satılık Tarla"
+    baslangic: 0.0
+    bitis: 2.5
+    konum: "orta"
+  - metin: "Yol ve cephe"
+    baslangic: 2.5
+    bitis: 7.3
+    konum: "orta"
+  - metin: "Sınır ve çevre"
+    baslangic: 7.3
+    bitis: 12.1
+    konum: "orta"
+  - metin: "[TOPLAM BEDEL GEREKLİ] · 1000 m² · Ören, Milas / Muğla"
+    baslangic: 12.1
+    bitis: 15.1
+    konum: "orta"
+seslendirme: ""
+sure_sn: 15.1
+parca_sayisi: 1
+her_parcada_etiket: "evet"
+yapay_zeka:
+  kullanildi: "evet"
+  neler: ["urun_gorseli"]
+  gercek_kisi_kopyasi: "hayir"
+indirim:
+  indirimli_fiyat: 450000
+  onceki_fiyat: null
+  son_10_gun_en_dusuk: null
+  baslangic: ""
+  bitis: ""
+  stok_adedi: null
+  urun_turu: "mal"
+  satis_kanali: "ilan platformu"
+  onceki_fiyat_kanali: "ilan platformu"
+cocuk:
+  hedef_kitle: "hayir"
+  oynuyor: "hayir"
+hedefleme:
+  cocuk_profilleme: "hayir"
+karsilastirma:
+  rakip_adi_var: "hayir"

@@ -1,0 +1,46 @@
+# Bu bir hukuki görüş değildir; bilgilendirme amaçlıdır.
+# Türkçe Carousel Üretici planı (github.com/redirhan/turkce-carousel):
+#   carousel.py kontrol carousel_plan.yaml && carousel.py render carousel_plan.yaml --cikti carousel/
+# Fiyat, EİDS linki ve yetki belge no slaytlardan ve açıklamadan çıkarılmamalı.
+konu: "Kızılay'da kiralık ofis"
+sablon: "koyu-mercan"
+hesap: "@ornekticari"
+seri: "Kiralık · Çankaya"
+slaytlar:
+  - tip: "kanca"
+    ust: "Kızılay, Çankaya"
+    sayi: "4+1"
+    baslik: "*120 m²* kiralık ofis"
+    alt: "65.000 TL / ay · EİDS doğrulamalı ilan"
+  - tip: "liste"
+    ust: "Yaklaşık mesafeler"
+    baslik: "Konum: *Kızılay*"
+    maddeler: ["Metro istasyonu: 450 m", "Otobüs durağı: 150 m", "Park: 300 m", "Hastane: 1,2 km"]
+    isaret: "nokta"
+  - tip: "madde"
+    baslik: "İç *özellikler*"
+    metin: "4+1 düzen. 2 tuvalet. 8. kat. Kuzey, doğu cephe. Açık ofis alanı 52 m², Yönetici odası 18 m², Toplantı odası 20 m²."
+  - tip: "madde"
+    baslik: "Bina ve *donatılar*"
+    metin: "Plaza. 15 yaşında bina. 3 asansör, jeneratör, 7/24 güvenlik."
+  - tip: "liste"
+    ust: "Hukuki durum"
+    baslik: "Tapu ve *imar*"
+    maddeler: ["Tapu: Kat mülkiyetli", "Yapı kullanma izni (iskân): Var", "İpotek/haciz: Yok", "Enerji kimlik belgesi: B sınıfı"]
+    isaret: "tik"
+  - tip: "liste"
+    ust: "İlan bilgileri"
+    baslik: "Fiyat ve *belgeler*"
+    maddeler: ["Fiyat: 65.000 TL / ay", "İlan no: 2233445566", "Yetki belge no: 0600456", "Ada 1088 / Parsel 3", "Enerji sınıfı: B"]
+    isaret: "nokta"
+  - tip: "cta"
+    tur: "paylas"
+    baslik: "İhtiyacı olana *gönder*"
+    metin: "EİDS doğrulamalı ilan linki açıklamada."
+caption:
+  kanca: "Kiralık Ofis · Kızılay, Çankaya / Ankara · 65.000 TL / ay"
+  maddeler: ["140 m² brüt / 120 m² net", "4+1", "Metro istasyonuna 450 m", "Kira 70.000 TL yerine 65.000 TL"]
+  cta: "EİDS doğrulamalı ilan: https://example.com/ilan/2233445566 · Yetki belge no: 0600456"
+  anahtar_kelimeler: ["kiralık ofis", "Çankaya ofis", "emlak ilanı"]
+  hashtagler: ["#çankaya", "#kiralıkofis", "#çankayakiralıkofis", "#emlak"]
+reklam: null
